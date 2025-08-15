@@ -14,7 +14,7 @@ from gui.tabs.results_tab import ResultsTab
 class MainWindow(QDialog):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("DIGLET - Diagnóstico Interativo de Geoinformação")
+        self.setWindowTitle("PostIntersect - Consultas de interseção Espacial no PostGIS")
         self.resize(600, 600)
         self.setMinimumWidth(520)
 

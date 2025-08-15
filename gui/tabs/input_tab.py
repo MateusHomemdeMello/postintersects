@@ -116,10 +116,10 @@ class InputTab(QWidget):
         layout.addLayout(row)
 
         btns = QHBoxLayout()
-        self.importar_btn = QPushButton("Importar JSON")
+        self.importar_btn = QPushButton("Importar Credenciais")
         self.importar_btn.clicked.connect(self._importar_credenciais)
 
-        self.exportar_btn = QPushButton("Exportar JSON")
+        self.exportar_btn = QPushButton("Exportar Credenciais")
         self.exportar_btn.clicked.connect(self._exportar_credenciais)
 
         self.conectar_btn = QPushButton("Conectar")

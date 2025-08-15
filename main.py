@@ -1,5 +1,5 @@
 # Main
-#Olá
+
 import sys
 from PyQt6.QtWidgets import QApplication
 from utils.style import DARK_STYLE
